@@ -1,0 +1,59 @@
+.table_container {
+    width: 100%;
+}
+
+.table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    border-spacing: 0px;
+    width: 100%;
+    border: 1px solid lightgrey;
+}
+
+.row {
+    background-color: white;
+}
+
+.row:nth-child(even) {
+    background-color: beige;
+}
+
+.rowover {
+    background-color: rgba(56, 32, 55, 0.377);
+}
+
+.column {
+    cursor: pointer;
+    /* border-bottom: 1px solid #000000; */
+    border: 1px solid lightgrey;
+    text-align: left;
+    padding: 8px;
+}
+
+.column_header {
+    cursor: pointer;
+    border: 1px solid lightgrey;
+    text-align: left;
+    padding: 8px;
+    background-color: cadetblue;
+}
+
+/*  -----------------------------lister ----------------------------- */
+
+.lister {
+    background-color: beige;
+    padding: 20px;
+    text-align: center;
+}
+
+.lister>* {
+    display: inline;
+}
+.lister > button {
+    cursor: pointer;
+    margin: 0 5px;
+    padding: 5px 15px;
+    background-color: rgb(206, 206, 182);
+    border: 1px solid grey;
+
+}
